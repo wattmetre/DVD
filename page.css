@@ -1,0 +1,27 @@
+html { 
+font-size:137%;
+}
+#invisible, .invisible { 
+opacity:1; visibility:hidden; display:none; 
+}
+#border {
+margin:50px; border:50px solid lightblue; padding:50px; background-color:blue; 
+}
+h1 {
+color:white; text-align: center;margin: 50px 0 50px 0;
+}
+.red {
+color:red; 
+}
+div.center {
+text-align:center; margin:auto; color: white;
+}
+.info { 
+float:right; color: white;
+}
+footer, .promo.promo1 {
+background-color:salmon; color: white;text-align: center;
+}
+#liste.listeDVD span {
+ color:white; cursor: help;
+}
