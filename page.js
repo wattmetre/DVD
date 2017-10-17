@@ -1,8 +1,8 @@
 function fill_DVD(title, actor, price, special) {
-	document.getElementById("DVD info TITLE").getElementsByTagName('input')[0].value=title;
-	document.getElementById("DVD INFO ACTOR").getElementsByTagName('input')[0].value=actor;
-	document.getElementById("DVD INFO Price").getElementsByTagName('input')[0].value=price;
-	document.getElementById("DVD INFO Promo").style.display=special?'block':'none';
+	document.getElementById("titre").getElementsByTagName('input')[0].value=title;
+	document.getElementById("acteur").getElementsByTagName('input')[0].value=actor;
+	document.getElementById("prix").getElementsByTagName('input')[0].value=price;
+	document.getElementById("Promo").style.display=special?'block':'none';
 }
 
 function fill_list(list) {

@@ -15,10 +15,10 @@
   		<section id="border">
  				<h1>Les DVDs de Vid&eacute;o-R&eacute;tro-Futur, la boutique des V&eacute;d&eacute;s !</h1>
       	 <aside  class="info">
-                 <p>TITRE: <input type="text" name="TITRE"> </p>
-		           <p>ACTEUR:<input type="text" name="ACTEUR"></p>
-                 <p>PRIX:<input type="numeric" name="PRIX"></p>
-                 <span ID="DVD INFO Promo " class="invisible red promo promo1">PROMO SPECIALE!!!</span>
+                 <p id="titre">TITRE: <input type="text" name="TITRE"> </p>
+		           <p id="acteur">ACTEUR:<input type="text" name="ACTEUR"></p>
+                 <p id="prix">PRIX:<input type="numeric" name="PRIX"></p>
+                 <span id="Promo" class="invisible red promo promo1">PROMO SPECIALE!!!</span>
 			</aside>
 			<div  id="liste"= class="listeDVD"></div> 
 		</section>          
@@ -28,7 +28,7 @@
   	
 	</body>
   
-  <script rel="javascript" src"page.js">
+  <script>
 	fill_list([
 	{title:"AGENT LOCK",actor:"MICHELLE HESTON",price:22.99,special:0},
 	{title:"ADAPTATION CLUE",actor:"MATTHEW LEIGH",price:20.99,special:0},
