@@ -1,0 +1,12 @@
+EXERCICE 3 
+
+INSERT INTO `CUSTOMERS`( `FIRSTNAME`, `LASTNAME`, `ADDRESS1`,  `CITY`, `COUNTRY`, `REGION`,  `CREDITCARDTYPE`, `CREDITCARD`, `CREDITCARDEXPIRATION`, `USERNAME`, `PASSWORD`, `AGE`)
+ VALUES ('Sam',' Souffi','Rue des Derviches', 'Babel', 'Cosmos','Haut','00', 'Nocarte','Never','samsouffi','turnturn','69' )
+
+INSERT INTO `PRODUCTS`( `CATEGORY`, `TITLE`, `ACTOR`, `PRICE`,  `COMMON_PROD_ID`) VALUES ('5','BAD BOY BUBBY','Nicolas Hope','30.50','20589')
+
+SELECT * FROM `PRODUCTS` WHERE CATEGORY = 5
+
+ "4eme requète"???
+
+UPDATE `CUSTOMERS` SET `ADDRESS1`= '2 rue Belle',`CITY`= 'Basse-ville',`COUNTRY`= 'France',`REGION`= 'ARA',`PHONE`= '+33 478 222 111' WHERE `LASTNAME`= 'QWRLBUPCHY' 
